@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0701b;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('file:///C:/Users/91636/Downloads/spy.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+    color: #ff3c3c;
+}
+
+.about {
+    padding: 20px;
+    background-image: url('file:///C:/Users/91636/Downloads/about.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0;
+    color: rgb(0, 253, 253);
+}
+
+.portfolio {
+    display: flex;
+    background-image: url('file:///C:/Users/91636/Downloads/proimg.jpg');
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.project-card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.project-card img {
+    max-width: 100%;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f0701b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
